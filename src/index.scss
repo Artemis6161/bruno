@@ -11,8 +11,8 @@ $theme-colors: (
 );
 
 $font-family-sans-serif: "Jules Big", -apple-sytem, sans-serif;
-$headings-font-family: "SF Pro", -apple-sytem, Roboto, sans-serif;
-$headings-font-weight: 500;
+$headings-font-family: "Jules Big", -apple-sytem, Roboto, sans-serif;
+$headings-font-weight: 300;
 $display-font-weight: 300;
 $headings-line-height: 1.1;
 $link-decoration: none;
@@ -37,8 +37,8 @@ $container-max-widths: (
   xxxl: 1500px,
 );
 @import "./styles/fonts.scss";
-@import "./styles/home.scss";
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "./styles/home.scss";
 
 * {
   -moz-font-smoothing: antialiased;

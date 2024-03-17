@@ -1,14 +1,14 @@
-// type rafce 
-import React from 'react'
-import Nav from './components/nav'
-
-
+// type rafce
+import SelectColor from "./components/selectColor.jsx";
+import CarClass from "./components/CarClass.jsx";
 const App = () => {
   return (
-    <div>
-      <Nav/>
-    </div>
-  )
-}
+    <>
+      <h1>hello</h1>
+      <SelectColor />
+      <CarClass />
+    </>
+  );
+};
 
-export default App
+export default App;
