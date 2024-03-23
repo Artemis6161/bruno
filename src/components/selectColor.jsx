@@ -18,7 +18,7 @@ function SelectColor() {
 
       <p>{vtype.brand}</p>
       <p>{vtype.color}</p>
-      <button onClick={() => changeData()}>change</button>
+      <button onClick={changeData}>change</button>
     </>
   );
 }
