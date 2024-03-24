@@ -60,7 +60,7 @@ function User() {
       },
     })
       .then((res) => res.json()) // POST
-      .then((data) => {
+      .then(() => {
         toast.show({
           message: "User Updated Success..!",
           intent: "success",
@@ -73,7 +73,7 @@ function User() {
       method: "DELETE",
     })
       .then((res) => res.json()) // POST
-      .then((data) => {
+      .then(() => {
         setUser((prev) => {
           return prev.filter((eachData) => eachData.id != id);
         });
